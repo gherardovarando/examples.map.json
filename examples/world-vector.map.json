@@ -1,0 +1,14 @@
+{
+  "type":"map",
+  "layers": [{
+  "type":"GeoJSON",
+  "data": "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson",
+  "options": {
+    "attribution": "<a href = 'https://okfn.org/'> Open Knowledge Foundation </a> | <a href = 'http://www.naturalearthdata.com/'>Natural Earth</a> | <a href='https://github.com/lexman'>lexman</a>",
+    "color":"red",
+    "fillColor":"orange",
+    "opacity":0.5
+  },
+  "tooltip":"The world"
+}]
+}

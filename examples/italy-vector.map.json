@@ -1,0 +1,42 @@
+{
+  "type": "map",
+  "name": "Mappa divisioni Italia",
+  "comment": "GeoJSON data is fetched from Openpolis github",
+  "layers": [{
+      "type": "GeoJSON",
+      "name": "Regioni",
+      "data": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_regions.geojson",
+      "options": {
+        "attribution": "<a href='https://github.com/openpolis'>Openopolis</a>"
+      }
+    },
+    {
+      "type": "GeoJSON",
+      "name": "Province",
+      "data": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson",
+      "options": {
+        "attribution": "<a href='https://github.com/openpolis'>Openopolis</a>",
+        "color":"green",
+        "weight":0.5
+      }
+    },
+    {
+      "type": "GeoJSON",
+      "name": "Municipalità",
+      "data": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_municipalities.geojson",
+      "options": {
+        "attribution": "<a href='https://github.com/openpolis'>Openopolis</a>",
+        "color":"red",
+        "weight":0.3,
+        "opacity":0.7
+       }
+    }
+  ],
+  "crs": "EPSG3857",
+  "author": "Gherardo Varando <gherardo.varando@gmail.com>",
+  "center": [
+    43.77,
+    11.25
+  ],
+  "zoom": 5
+}
