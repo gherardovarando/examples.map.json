@@ -12,6 +12,8 @@ a [csvTile](https://github.com/gherardovarando/leaflet-csvtiles), moreover the m
 of the italian regions while the other two layers are the finer administrative subdivisions.
 
 * `north_italy_1828.map.json`: a simple map from an image.
+   The alignment with EPSG3857 has been done visually as
+   example. 
 
 * `neurons.map.json`: a non-geographical example of a multi-level map using [leaflet-multilevel](https://github.com/gherardovarando/leaflet-multilevel).
 

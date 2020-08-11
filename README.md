@@ -6,3 +6,5 @@ The json scheme is available at the [map.scheme.json repository](https://github.
 with layers defined as a `map.json`.
 
 The Atom package [map-viewer](https://atom.io/packages/map-viewer) visualizes and allows live editing  of `map.json` files. Just install the package, download an example file from the repository, open it in the Atom editor and press `ctrl-alt-m` to open the map.
+
+See the complete [examples list](examples.md).

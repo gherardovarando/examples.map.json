@@ -1,20 +1,32 @@
 {
   "type": "map",
   "name": "North Italy 1828",
-  "crs": "simple",
+  "crs": "EPSG3857",
   "center": [
-    -250,
-    300
+    43.77,
+    11.25
   ],
+  "zoom": 6,
   "layers": [{
     "type": "imageOverlay",
     "name": "oldmap",
-    "baseLayer": true,
+    "baseLayer": false,
     "bounds": [
-      [-511.0, 0],
-      [0, 632.3]
+      [46.67, 5.68],
+      [41.05, 15.3]
     ],
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/North_Italy%2C_1828_%28Hall%29.jpg",
     "attribution": "<a href='https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~21796~670029:Italy-North-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No'>David Rumsey Map Collection</a>"
-  }]
+  }, {
+    "name": "OpenStreetMap",
+    "type": "tileLayer",
+    "baseLayer": true,
+    "author": "OpenStreetMap",
+    "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "options": {
+      "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
+    }
+  }],
+  "comment": "manual/visual approximate EPSG3857 alignment",
+  "author":"Gherardo Varando <gherardo.varando@gmail.com"
 }
