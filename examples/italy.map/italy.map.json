@@ -1,0 +1,15 @@
+{
+  "type":"map",
+  "layers": [
+    "region.layer.json",
+    "nord.layer.json",
+    "center.layer.json"
+  ],
+  "crs": "EPSG3857",
+  "center": [
+    43.77,
+    11.25
+  ],
+  "zoom": 5,
+  "author": "Gherardo Varando"
+}

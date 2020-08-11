@@ -1,0 +1,20 @@
+{
+  "type": "map",
+  "name": "North Italy 1828",
+  "crs": "simple",
+  "center": [
+    -250,
+    300
+  ],
+  "layers": [{
+    "type": "imageOverlay",
+    "name": "oldmap",
+    "baseLayer": true,
+    "bounds": [
+      [-511.0, 0],
+      [0, 632.3]
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/North_Italy%2C_1828_%28Hall%29.jpg",
+    "attribution": "<a href='https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~21796~670029:Italy-North-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No'>David Rumsey Map Collection</a>"
+  }]
+}

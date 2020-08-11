@@ -3,6 +3,7 @@
   "layers": [{
     "type": "tileLayer",
     "multiLevel": true,
+    "baseLayer":true,
     "url": "https://gherardovarando.github.io/leaflet-multilevel/demo/GAD67_tiles/slice{level}/{z}/{x}/{y}.png",
     "options": {
       "maxLevel": 46,
@@ -23,10 +24,7 @@
       "radius": 5
     },
     "tooltip": {
-      "content": "A neuron visible from slice 1 up to approx slice 12",
-      "options": {
-        "permanent": true
-      }
+      "content": "A neuron visible from slice 1 up to approx slice 12"
     }
   }],
   "multilevel": true,

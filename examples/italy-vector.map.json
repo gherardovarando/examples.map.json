@@ -5,6 +5,7 @@
   "layers": [{
       "type": "GeoJSON",
       "name": "Regioni",
+      "baseLayer":true,
       "data": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_regions.geojson",
       "options": {
         "attribution": "<a href='https://github.com/openpolis'>Openopolis</a>"
